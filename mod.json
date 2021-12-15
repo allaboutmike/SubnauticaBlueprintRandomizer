@@ -1,0 +1,10 @@
+{
+  "Id": "BlueprintRandomizer",
+  "DisplayName": "Blueprint Randomizer",
+  "Author": "RazorOne",
+  "Version": "1.0.0",
+  "Enable": true,
+  "AssemblyName": "BlueprintRandomizer.dll",
+  "Dependencies": [],
+  "Game": "Subnautica"
+}
