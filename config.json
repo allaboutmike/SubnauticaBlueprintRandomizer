@@ -1,0 +1,9 @@
+{
+	"seed": "seed2",
+	"use_all_scanner_entries": true,
+	"use_all_analysis_entries": true,
+	"use_all_goal_entries": true,
+	"randomize_starting_blueprints": true,
+	"use_progression": false,
+	"allow_softlocks": false
+}
