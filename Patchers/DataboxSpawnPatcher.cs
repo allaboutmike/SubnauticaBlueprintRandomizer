@@ -21,4 +21,25 @@ namespace BlueprintRandomizer
             return true;
         }
     }
+
+    [HarmonyPatch(typeof(ProtobufSerializer), nameof(ProtobufSerializer.DeserializeIntoGameObject))]
+    class DataboxSavePatcher
+    {
+        [HarmonyPostfix]
+        internal static void PatchDataboxOnLoad(ref ProtobufSerializer __instance, UniqueIdentifier uid)
+        {
+            BlueprintHandTarget blueprint = uid.gameObject.GetComponent<BlueprintHandTarget>();
+
+            if (blueprint != null)
+            {
+                var lookupKey = "Databox|" + blueprint.unlockTechType;
+                var newTechType = BlueprintRandomizer.mainDictionary.LookupTechType(lookupKey);
+
+                if (newTechType != TechType.None)
+                {
+                    blueprint.unlockTechType = newTechType;
+                }
+            }
+        }
+    }
 }
