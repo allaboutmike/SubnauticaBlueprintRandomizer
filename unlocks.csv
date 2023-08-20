@@ -4,7 +4,7 @@ Scanner|Stalker,0,Scanner
 Scanner|Sandshark,0,Scanner
 Scanner|Biter,0,Scanner
 Scanner|Cutefish,0,Scanner|BaseWaterPark
-Scanner|Bladderfish,1,Scanner
+Scanner|Bladderfish,0,Scanner
 Scanner|AcidMushroom,0,Scanner
 Scanner|PurpleBrainCoral,0,Scanner
 Scanner|LimestoneChunk,0,Scanner
@@ -211,7 +211,7 @@ Scanner|PrecursorPrisonAquariumIncubator,0,Scanner
 Scanner|SeaEmperorLeviathan,0,Scanner
 Scanner|SeaEmperorBaby,0,Scanner|HatchingEnzymes
 Scanner|Marki2,1,Scanner
-Scanner|HatchingEnzymes,1,Scanner|HatchingEnzymes
+Scanner|HatchingEnzymes,0,Scanner|HatchingEnzymes
 Scanner|PrecursorPrisonArtifact13,0,Scanner
 Scanner|LaserCutterFragment,1,Scanner
 Scanner|BeaconFragment,1,Scanner
