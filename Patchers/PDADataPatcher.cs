@@ -26,7 +26,6 @@ namespace BlueprintRandomizer
                 }
             }
 
-
             List<PDAScanner.EntryData> scanner = pdaData.scanner;
             for (int index = 0; index < scanner.Count; index++)
             {

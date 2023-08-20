@@ -61,6 +61,7 @@
     <Compile Include="Data\Config.cs" />
     <Compile Include="Data\Unlock.cs" />
     <Compile Include="Logic\BasicLogic.cs" />
+    <Compile Include="Patchers\PlayerPatcher.cs" />
     <Compile Include="Patchers\DataboxSpawnPatcher.cs" />
     <Compile Include="Patchers\OnGoalUnlockTrackerPatcher.cs" />
     <Compile Include="Patchers\RocketPatcher.cs" />

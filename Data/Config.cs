@@ -12,5 +12,6 @@ namespace BlueprintRandomizer.Data
         public bool RandomStartingBlueprints = false;
         public bool UseProgression = false;
         public bool AllowSoftlocks = false;
+        public bool StartingEquipment = false;
     }
 }

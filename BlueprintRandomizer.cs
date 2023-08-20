@@ -70,6 +70,7 @@ namespace BlueprintRandomizer
                 "\tRandomize Starting Blueprints: " + Config.RandomStartingBlueprints,
                 "\tUse Progression: " + Config.UseProgression,
                 "\tAllow Softlocks: " + Config.AllowSoftlocks,
+                "\tStarting Equipment: " + Config.StartingEquipment,
                 "*************************************************************************************",
                 "",
                 "Blueprint Mapping:"

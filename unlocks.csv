@@ -3,7 +3,7 @@ Scanner|Gasopod,0,Scanner
 Scanner|Stalker,0,Scanner
 Scanner|Sandshark,0,Scanner
 Scanner|Biter,0,Scanner
-Scanner|Cutefish,0,Scanner,BaseWaterPark
+Scanner|Cutefish,0,Scanner|BaseWaterPark
 Scanner|Bladderfish,1,Scanner
 Scanner|AcidMushroom,0,Scanner
 Scanner|PurpleBrainCoral,0,Scanner
@@ -45,7 +45,6 @@ Scanner|BaseObservatoryFragment,1,Scanner
 Scanner|BaseRoomFragment,1,Scanner
 Scanner|BaseUpgradeConsoleFragment,1,Scanner
 Scanner|BaseWaterParkFragment,1,Scanner
-Scanner|BenchFragment,1,Scanner
 Scanner|BuilderFragment,0,Scanner
 Scanner|ConstructorFragment,1,Scanner
 Scanner|CyclopsBridgeFragment,1,Scanner
@@ -65,7 +64,6 @@ Scanner|ReinforceHullFragment,1,Scanner
 Scanner|SeaglideFragment,1,Scanner
 Scanner|SeamothFragment,1,Scanner
 Scanner|StasisRifleFragment,1,Scanner
-Scanner|TechlightFragment,1,Scanner
 Scanner|ThermalPlantFragment,1,Scanner
 Scanner|WorkbenchFragment,1,Scanner
 Scanner|HangingFruitTree,0,Scanner
@@ -107,7 +105,6 @@ Scanner|PlanterBox,1,Scanner
 Scanner|PlanterShelf,1,Scanner
 Scanner|FarmingTray,1,Scanner
 Scanner|BasePlanter,1,Scanner
-Scanner|Techlight,1,Scanner
 Scanner|FiltrationMachine,1,Scanner
 Scanner|Bench,1,Scanner
 Scanner|Spotlight,1,Scanner
@@ -153,7 +150,6 @@ Scanner|ExosuitTorpedoArmFragment,1,Scanner
 Scanner|ExosuitPropulsionArmFragment,1,Scanner
 Scanner|ExosuitClawArmFragment,1,Scanner
 Scanner|BaseFiltrationMachineFragment,1,Scanner
-Scanner|RocketBase,1,Scanner|RocketBase
 Scanner|LavaLarva,0,Scanner
 Scanner|LavaLizard,0,Scanner
 Scanner|SeaDragon,0,Scanner
@@ -491,7 +487,6 @@ Databox|SwimChargeFins,1,LaserCutter
 Databox|CyclopsThermalReactorModule,1,LaserCutter
 Databox|StillSuit,1,LaserCutter
 Databox|CyclopsHullModule1,1,LaserCutter
-Databox|CyclopsShieldModule,1,LaserCutter
 Databox|HighCapacityTank,1,LaserCutter
 Databox|CyclopsShieldModule,1,LaserCutter
 Databox|CyclopsSeamothRepairModule,1,LaserCutter

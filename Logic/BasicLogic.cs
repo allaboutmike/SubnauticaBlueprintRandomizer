@@ -115,7 +115,7 @@ namespace BlueprintRandomizer.Logic
                 var nextTechIdx = GetValidTechIndex(nextUnlock, possibleTech);
 
                 // Check for a softlock. If one is found, reject this pairing and generate another
-                if (!CheckSoftlock(dict, nextUnlock, possibleTech[nextTechIdx]) || config.allowSoftlocks)
+                if (!CheckSoftlock(dict, nextUnlock, possibleTech[nextTechIdx]) || config.AllowSoftlocks)
                 {
                     dict.AddOrUpdate(nextUnlock.randomizerKey, possibleTech[nextTechIdx]);
                     restrictedUnlocks.RemoveAt(keyIndex);
@@ -187,7 +187,7 @@ namespace BlueprintRandomizer.Logic
             for (int i = 0; i < 1000; i++)
             {
                 var candidateIdx = random.Next(0, possibleTechTypes.Count);
-                if (!unlock.invalidTechTypes.Contains(possibleTechTypes[candidateIdx]) || config.allowSoftlocks)
+                if (!unlock.invalidTechTypes.Contains(possibleTechTypes[candidateIdx]) || config.AllowSoftlocks)
                 {
                     return candidateIdx;
                 }
