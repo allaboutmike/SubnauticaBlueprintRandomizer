@@ -275,7 +275,7 @@ Analysis|CreepvinePiece|1,1,Knife
 Analysis|CreepvineSeedCluster|0,1,
 Analysis|StalkerTooth|0,1,
 Analysis|WhiteMushroom|0,1,
-Analysis|FiberMesh|0,1,FiberMesh,Knife
+Analysis|FiberMesh|0,1,FiberMesh|Knife
 Analysis|BaseMapRoom|0,1,BaseMapRoom
 Analysis|BaseMapRoom|1,1,BaseMapRoom
 Analysis|BaseMapRoom|2,1,BaseMapRoom
